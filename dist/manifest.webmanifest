@@ -1,0 +1,24 @@
+{
+  "name": "Dhanshiri Restaurant & Party Center",
+  "short_name": "Dhanshiri",
+  "description": "খাবার শুধু পেট ভরে না মনও ভরে.. Order food, book tables and reserve the party hall.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#040805",
+  "theme_color": "#052e16",
+  "lang": "bn",
+  "categories": ["food", "lifestyle"],
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Food Menu", "short_name": "Menu", "url": "/#menu" },
+    { "name": "Book a Table", "short_name": "Booking", "url": "/#booking" },
+    { "name": "Order Now", "short_name": "Order", "url": "/#menu" }
+  ]
+}
